@@ -1,0 +1,9 @@
+flask
+langchain
+langchain-openai
+langchain-community
+unstructured  # <-- ADD THIS LINE
+python-dotenv
+faiss-cpu
+sentence-transformers
+tiktoken

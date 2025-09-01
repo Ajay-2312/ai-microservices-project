@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "1f107c28-a899-4101-8304-ef94fd88589e",
+		"name": "AI Microservices Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48040961",
+		"_collection_link": "https://tejayuva957-8580412.postman.co/workspace/Yuva-Teja's-Workspace~437a6760-af19-4b91-8657-77f90574e8f1/collection/48040961-1f107c28-a899-4101-8304-ef94fd88589e?action=share&source=collection_link&creator=48040961"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5001/summarize",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": \"Artificial intelligence is a branch of computer science that aims to create intelligent machines. It has become an essential part of the technology industry.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/summarize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"summarize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5002/qa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \"What is the core idea of LangChain?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5002/qa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5002",
+					"path": [
+						"qa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5003/learning-path",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"topic\": \"Data Science\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5003/learning-path",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"learning-path"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,4 @@
+flask
+langchain
+langchain-openai  # Changed from langchain-community
+python-dotenv
